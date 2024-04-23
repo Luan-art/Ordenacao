@@ -8,7 +8,7 @@ int[] vetorInverso = new int[max];
 
 for(int i = 0; i < max; i++)
 {
-    vetores[i] = new Random().Next(0, 5);
+    vetores[i] = new Random().Next(0, max);
     vetorCopia[i] = vetores[i];
 }
 
